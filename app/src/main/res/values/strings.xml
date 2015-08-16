@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">FSCAN</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_help_en">FSCAN Guide</string>
+    <string name="title_activity_help_fr">Guide FSCAN</string>
+    <string name="action_bar_help_en">Help</string>
+    <string name="action_bar_help_fr">Aide</string>
+    <string name="action_bar_about_en">About</string>
+    <string name="action_bar_about_fr">À Propos</string>
+    <string name="sort_asc_en">Sort by Org. (Ascending)</string>
+    <string name="sort_des_en">Sort by Org. (Descending)</string>
+    <string name="sort_asc_fr">Trier par Org. (Croissant)</string>
+    <string name="sort_des_fr">Trier par Org. (Décroissant)</string>
+    <string name="col_org_en">Organization</string>
+    <string name="col_org_fr">Organisation</string>
+    <string name="col_strat_en">Strategic Outcome</string>
+    <string name="col_strat_fr">Résultat Stratégique</string>
+    <string name="col_name_en">Program Name</string>
+    <string name="col_name_fr">Nom Programme</string>
+    <string name="col_spend_en">Actual Spending</string>
+    <string name="col_spend_fr">Dépenses Réelles</string>
+    <string name="instructions_en">This application provides you with an easy-to-use reference to the Federal spending data sets
+        provided by the government of Canada\'s open data portal.
+        \n\n
+        At the top left, a drop-down menu enables you to choose from which annual range the data being displayed is.
+        A switch at the top right allows you to switch the application\'s language from English (EN) to French (FR) and back again.
+        When viewing the data in landscape orientation, you may search for a specific record by the organization name using the text field
+        at the top above the main data table. In portrait orientation, the top-center button is available which will sort the current list in
+        ascending alphabetical order once clicked.
+        \n\n
+        Depending on your orientation, you may either be able to tap on a program to expand its associated information in the portrait
+        (vertical) view, or simply scroll down the list of programs and view their associated information from left-to-right in landscape
+        (horizontal) view.
+    </string>
+    <string name="instructions_fr">Cette application vous offre une interface facile à des ensembles de données de dépenses fédérales
+        prévues par le gouvernement du portail de données ouvertes du Canada.
+        \n\n
+        En haut à gauche, un menu déroulant vous permet de choisir à partir de laquelle fourchette annuelle les données affichées est.
+        Un interrupteur en haut à droite vous permet de basculer la langue de l\'application à partir du Anglais (EN) à Français (FR) et retour.
+        Lorsque vous affichez des données en orientation paysage, vous pouvez rechercher un enregistrement spécifique par le nom de l\'organisation
+        en utilisant le champ de texte en haut au-dessus du tableau principal de données. En orientation portrait, le bouton du haut-centre
+        est disponible qui va trier la liste actuelle par ordre alphabétique croissant fois cliqué.
+        \n\n
+        Selon votre orientation, vous pouvez soit être en mesure de taper sur un programme d\'étendre son information associée dans le
+        portrait (vertical) de vue, ou tout simplement faire défiler la liste des programmes et consulter leurs informations associées de droite
+        de gauche à dans le paysage (vue horizontale).
+    </string>
+    <string name="about_text">©2015 Yoav Gurevich &amp; Seneca College \n\n All non-original application code or images are used under
+        appropriate open-source or creative commons licenses.
+    </string>
+    <string name="about_text_fr">©2015 Yoav Gurevich &amp; Seneca College \n\n Tout le code de l\'application non d\'origine
+        ou les images sont utilisées sous licence open-source ou creative commons appropriées.
+    </string>
+    <string name="hint_en">Search by organization name...</string>
+    <string name="hint_fr">Recherche par le organisation...</string>
+</resources>
