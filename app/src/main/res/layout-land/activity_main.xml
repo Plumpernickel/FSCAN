@@ -35,7 +35,9 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentRight="true"
                 android:layout_centerHorizontal="true"
-                android:layout_column="1" />
+                android:layout_column="1"
+                android:imeOptions="actionNext"
+                android:inputType="text" />
 
             <Switch
                 android:layout_width="wrap_content"
@@ -64,7 +66,7 @@
             <TextView
                 android:layout_width="0px"
                 android:layout_height="wrap_content"
-                android:text="Organization"
+                android:text="@string/col_org_en"
                 android:id="@+id/orgLabel"
                 android:textColor="@android:color/holo_orange_dark"
                 android:layout_weight="0.25" />
@@ -72,7 +74,7 @@
             <TextView
                 android:layout_width="0px"
                 android:layout_height="wrap_content"
-                android:text="Strategic Outcome"
+                android:text="@string/col_name_en"
                 android:id="@+id/stratOutLabel"
                 android:textColor="@android:color/holo_orange_dark"
                 android:layout_weight="0.25" />
@@ -80,7 +82,7 @@
             <TextView
                 android:layout_width="0px"
                 android:layout_height="wrap_content"
-                android:text="Name"
+                android:text="Strategic Outcome"
                 android:id="@+id/nameLabel"
                 android:textColor="@android:color/holo_orange_dark"
                 android:layout_weight="0.25" />
@@ -100,7 +102,8 @@
             <GridView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/gridView" />
+                android:id="@+id/gridView"
+                android:numColumns="4" />
         </TableRow>
 
     </TableLayout>

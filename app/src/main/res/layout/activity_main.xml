@@ -12,7 +12,7 @@
         android:textOff="ENG"
         android:textOn="FR"
         android:layout_alignParentTop="true"
-        android:layout_alignEnd="@+id/autoComplete1" />
+        android:layout_alignEnd="@+id/button" />
 
     <Spinner
         android:layout_width="wrap_content"
@@ -23,21 +23,43 @@
         android:layout_alignParentStart="true"
         android:layout_toStartOf="@+id/switch2" />
 
-    <AutoCompleteTextView
+    <!--<EditText-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/edit1"-->
+        <!--android:layout_column="7"-->
+        <!--android:layout_below="@+id/switch2"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:hint="Search disabled"-->
+        <!--android:imeOptions="actionNext"-->
+        <!--android:inputType="text" />-->
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/autoComplete1"
-        android:layout_column="7"
+        android:text="@string/sort_asc_en"
+        android:id="@+id/button"
         android:layout_below="@+id/switch2"
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"
-        android:hint="@string/hint_en" />
+        android:textSize="18dp"
+        android:textColor="@android:color/holo_orange_dark" />
 
     <ExpandableListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/expandableListView"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/autoComplete1" />
+        android:layout_below="@+id/button" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Large"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true" />
 
 </RelativeLayout>
